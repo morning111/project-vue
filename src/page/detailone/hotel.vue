@@ -1,5 +1,5 @@
 <template>
-  <div  style='background-color: #ffdb5c;padding-bottom: .26rem;'>
+  <div  style='background-color: #ffdb5c;padding-bottom: .26rem; height:12.98rem;'>
     <div class='advertising'>
       <img class='advertising-img' src='//img1.qunarzz.com/piao/fusion/1712/d4/f8cf91f0b7cb902.png' alt=''>
     </div>
@@ -130,12 +130,13 @@ export default {
   font-size:.24rem;
 }
 .mp-product-price{
+  margin:1% 0 1%;
   margin-right:3%;
   float:right;
 }
 .mp-product-priceobb{
   width:94%;
-  margin:0 3% 0;
+  margin:1% 3% 1%;
   float:right;
 }
 .topic{
@@ -144,7 +145,8 @@ export default {
     font-size: .28rem;
     line-height: .32rem;
     overflow: hidden;
-    width: 100%;
+    width: 98%;
+    margin:0 1%;
     white-space: nowrap;
     text-overflow: ellipsis;
 }

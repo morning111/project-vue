@@ -19,7 +19,7 @@
   </div>
 
   <header class="header">
-    <div class="back iconfont">&#xe624;</div>
+    <div class="back iconfont" @click="handelIndexb">&#xe624;</div>
     <div class="header-center">
       香港迪士尼乐园
     </div>
@@ -65,6 +65,9 @@ export default {
   },
   methods: {
     handelIndex () {
+      this.$router.push({path: '/'})
+    },
+    handelIndexb () {
       this.$router.push({path: '/'})
     },
     handleClose () {

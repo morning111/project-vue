@@ -1,5 +1,5 @@
 <template>
-  <div style="background-color: #ffdb5c;padding-top: .26rem;">
+  <div style="background-color: #ffdb5c;padding-top: .26rem; height:14.62rem">
     <div class="mp-caption">
       <img class="mp-topic-img" src="//img1.qunarzz.com/piao/fusion/1705/1b/3ecc7df173c43d02.png" style="opacity: 1;">
     </div>
@@ -52,6 +52,7 @@ export default {
 </script>
 <style scoped>
 .hotel-Bigbox{
+  height:5.68rem;
   width:98%;
   padding:1%;
 }
@@ -93,7 +94,7 @@ export default {
 }
 .mp-product-price{
   width:94%;
-  margin:0 3% 0;
+  margin:0 3% 1%;
   float:right;
 }
 .topic{
@@ -102,7 +103,8 @@ export default {
     font-size: .28rem;
     line-height: .32rem;
     overflow: hidden;
-    width: 100%;
+    width: 98%;
+    margin:0 1%;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
@@ -175,7 +177,8 @@ export default {
   width: 100%;
 }
 .mp-footer{
-      padding: .28rem .18rem .44rem;
+  height:1.02rem;
+  padding: .3rem .18rem;
 }
 .mp-footer-item{
     min-height: .3rem;

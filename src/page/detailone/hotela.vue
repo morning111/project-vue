@@ -1,5 +1,5 @@
 <template>
-  <div style="background-color: #ffb300;padding-top: .26rem;">
+  <div style="background-color: #ffb300;padding-top: .26rem;  height:10.98rem;">
     <div class="hotel-box" v-for='item in hotelInfoa' :key='item.id'>
       <div class="mp-item"> 
         <div class="mp-img-container"> 
@@ -129,7 +129,7 @@ export default {
 }
 .mp-product-price{
   width:94%;
-  margin:0 3% 0;
+  margin:0 3% 1%;
   float:right;
 }
 
@@ -139,7 +139,8 @@ export default {
     font-size: .28rem;
     line-height: .32rem;
     overflow: hidden;
-    width: 100%;
+    width: 98%;
+    margin:1% 1%;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
