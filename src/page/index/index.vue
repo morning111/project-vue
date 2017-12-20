@@ -11,7 +11,7 @@
   	</header>
   	
     <swiper :options="swiperOption">
-      <swiper-slide v-for='(item, index) in swiperInfo' :key='item.id'>
+      <swiper-slide v-for='item in swiperInfo' :key='item.id'>
         <div class="swiper-img-con">
           <img  class="swiper-img" :src="item.imgUrl"/>
         </div>
@@ -266,7 +266,7 @@ export default {
 	
 	}
 	.postionNspring_ul li:nth-child(1){
-		border-r: .01rem solid #f5f5f5;
+		border-right: .01rem solid #f5f5f5;
 	}
 	.postionNspring_ul li a{
 		color: #212121;
