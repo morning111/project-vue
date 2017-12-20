@@ -164,6 +164,7 @@ export default {
         this.dataInfo = body.data.dataList
         this.superInfo = body.data.superList
         this.captionInfo = body.data.captionList
+        this.routerInfo = body.data.routerList
       }
     },
 
