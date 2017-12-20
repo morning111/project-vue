@@ -7,28 +7,13 @@
   	  		输入城市/景点/游戏主题
   	  	</div>
   	  </div>
-  	  <div class="city">北京<i class="iconfont">&#xe600;</i> </div>
+  	  <div class="city" router-link to="/city"><router-link to="city" class="city">{{city}}</router-link><i class="iconfont">&#xe600;</i> </div>
   	</header>
   	
-    <swiper :options="swiperOption">
-      <swiper-slide v-for='(item, index) in swiperInfo' :key='item.id'>
-        <div class="swiper-img-con">
-          <img  class="swiper-img" :src="item.imgUrl"/>
-        </div>
-      </swiper-slide>
-      <div class="swiper-pagination"  slot="pagination"></div>
-    </swiper>
-     <swiper>
-      <swiper-slide v-for='(pageInfo, index) in pages' :key='index'>
-          <div v-for="item in pageInfo" :key="item.id" class="icon-item">
-            <div class="icon-img-con">
-              <img  class="icon-img" :src="item.imgUrl"/>
-            </div>
-           <div class="spotNme" >{{item.name}}</div>
-          </div>
-      </swiper-slide>
-      <div class="swiper-pagination"  slot="pagination"></div>
-    </swiper>
+  	<index-swiper :swiperInfo='swiperInfo'></index-swiper>
+  	<classfiy-swiper :pages='pages'></classfiy-swiper>
+    
+    
     <ul class="postionNspring_ul">
     	<li><span class="iconfont position1">&#xe611;</span>定位失败</li>
     	<li><a><span class="iconfont position">&#xe613;</span>五折泡温泉</a></li>
@@ -38,59 +23,18 @@
     	<li><a></a></li>
     	<li><a></a></li>
     </ul>
-    <div class="lazy-load">
-    	<h2 class="hotSal">热销推荐</h2>
-    	<ul class="hotSal_list">
-    		<li class="mp-hot-li" v-for="(item, index) in hotlist" :key="index">
-    			<a href="javascript:;">
-    				<div class="hot-li-img">
-    					<img :src="item.imgUrl" />
-    				</div>
-    				<div class="mp-hotlist-infos">
-    					<div class="mp-hotlist-title">{{item.title}}</div>
-    					<div class="mp-hotlist-desc overflowOmit">{{item.desc}}</div>
-    				</div>
-    				<div class="mp-hotlist-pric">
-    					￥ 
-    					<em class="mp-hotlist-pric-num">{{item.pric}}</em>
-    					<span class="mp-hotlist-pric-start">起</span>
-    				</div>
-    			</a>
-    		</li>
-    	</ul>
-    	<div class="lookMorePro">
-    		<a href="javascript:;">查看更多产品</a>
-    	</div>
-    </div>
-    
+   
+   <hot-recommend :hotlist='hotlist'></hot-recommend>
     <!--周末去哪儿-->
-    
-    <div class="lazy-load" id="weekGoWhere">
-    	<h2 class="hotSal">周末去哪儿</h2>
-    	<div class="weekGoWhere_list" v-for="(item, index) in weeklist" :key="index">
-    		<div class="mp-week-item">
-    			<a href="javascript:;">
-    				<div class="mp-week-item-img">
-    					<img :src="item.imgUrl" />
-    				</div>
-    				<div class="mp-week-item-titleDesc">
-    					<p class="mp-week-item-title">{{item.title}}</p>
-    					<p class="mp-week-item-desc overflowOmit">{{item.desc}}</p>
-    				</div>
-    			</a>
-    		</div>
-    	</div>
-    	
-    </div>
-    
+   <week-where :weeklist='weeklist'></week-where>
+   
+    <!--footer-->
     <div class="price-desc">
     	<div class="price-ticket-box">
     		<span class="price-desc-ticket">票面价</span>
     		<span>是指通过景区指定窗口售卖的纸质门票上标注的价格</span>
     	</div>
     </div>
-    
-    <!--footer-->
     <div class="footer-box">
     	<div class="kind-product">
     		<ul class="kind-nav">
@@ -144,22 +88,29 @@
 </template>
 
 <script>
+	import IndexSwiper from './swiper'
+	import ClassfiySwiper from './classfiyswiper'
+	import HotRecommend from './hotRecommend'
+	import WeekWhere from './weekWhere'
+	import { mapState } from 'vuex'
 export default {
   name: 'Index',
+  components: {
+    IndexSwiper,
+    ClassfiySwiper,
+    HotRecommend,
+    WeekWhere
+  },
   data () {
     return {
       swiperInfo: [], /* 建立空数组，将图片放进去，然后循环出来 */
       iconInfo: [],
       hotlist: [],
-      weeklist: [],
-      swiperOption: {
-        autoplay: 1000,
-        loop: true,
-        pagination: '.swiper-pagination'
-      }
+      weeklist: []
     }
   },
   computed: {
+    ...mapState(['city']),  //  ...mapState({city1:'city'}),
      /* 计算页数 */
     pages () {
       const pages = []
@@ -193,7 +144,6 @@ export default {
   }
 }
 </script>
-
 <style scoped>
   .header {
     display: flex;
@@ -221,34 +171,8 @@ export default {
   	margin-right: 0.1rem;
     line-height: .86rem;
     text-align: left;
+    color: #fff;
   }
-  .swiper-img-con {
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    padding-bottom: 31.25%;
-  }
-  .swiper-img {
-    width: 100%;
-  }
-  .icon-item {
-    float: left;
-    width: 25%;
-    height: 1.3rem;
-    padding-top: .3rem;
-    text-align: center;
-  }
- .icon-img {
-    width: .66rem;
-    height: .66rem;
-  }
-	.spotNme{
-		width: 100%;
-		height: .5rem;
-		margin-top: 0.2rem;
-		font-size: 0.28rem;
-		text-align: center;
-	}
 	.postionNspring_ul{
 		display: flex;
 		width: 100%;
@@ -263,7 +187,6 @@ export default {
 	}
 	.postionNspring_ul li span{
 		font-size: .32rem;
-	
 	}
 	.postionNspring_ul li:nth-child(1){
 		border-r: .01rem solid #f5f5f5;
@@ -297,99 +220,6 @@ export default {
 	.mp-activity-con li a{
 		width: 100%;
 		height: 100%;
-	}
-	.lazy-load{
-		width: 100%;
-	}
-	.hotSal{
-		height: .8rem;
-		background: #f5f5f5;
-		line-height: .8rem;
-		padding-left: .5rem;
-	}
-	.hotSal_list{
-		width: 100%;
-	}
-	.mp-hot-li{
-		overflow: hidden;
-		height: 1.4rem;
-		width: 100%;
-		position: relative;
-		padding: .24rem;
-		border-bottom: .01rem solid #f5f5f5;
-	}
-	.hot-li-img{
-		position: absolute;
-		top: .24rem;
-		left: .24rem;
-		width: 1.4rem;
-		height: 1.4rem;
-	}
-	.hot-li-img img{
-		width: 1.4rem;
-		height: 1.4rem;
-	}
-	.mp-hotlist-infos{
-		margin-left: 1.6rem;
-	}
-	.mp-hotlist-title{
-		margin-top: 0.1rem;
-		color: #212121;
-	}
-	.mp-hotlist-desc{
-		margin-top: 0.15rem;
-		color: #9e9e9e;
-	}
-	.mp-hotlist-pric{
-		margin-left: 1.6rem;
-		margin-top: 0.31rem;
-		color: #ef8a33;
-		font-size: .24rem;
-	}
-	.mp-hotlist-pric-num{
-		font-size: .34rem;
-		color: #ef8a33;
-	}
-	.mp-hotlist-pric-start{
-		font-size: .24rem;
-		color: #9e9e9e;
-	}
-	.lookMorePro{
-		width: 100%;
-		height: .88rem;
-		text-align: center;
-		line-height: .88rem;
-		color: #00afc7;
-	}
-	
-	.weekGoWhere_list{
-		width: 100%;
-	}
-	.mp-week-item{
-		border-bottom: .1rem solid #f5f5f5;
-	}
-	.mp-week-item-img{
-		overflow: hidden;
-		height: 0;
-		padding-bottom: 35%
-	}
-	.mp-week-item-img img{
-		width: 100%;
-	}
-	.mp-week-item-titleDesc{
-		width: 100%;
-		color: #212121;
-	}
-	.mp-week-item-title{
-		margin-left: .2rem;
-		margin-top: .3rem;
-	}
-	.mp-week-item-desc{
-		margin-left: .2rem;
-		margin-top: .2rem;
-		color: #9e9e9e;
-		font-size: .24rem;
-		margin-bottom: .3rem;
 	}
 	.price-desc{
 		margin-top: .1rem;
