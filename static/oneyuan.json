@@ -1,0 +1,61 @@
+{
+  "ret": true,
+  "data": {
+    "anchor": [{
+      "id": "0001",
+      "title": "1元秒杀"
+      },{
+      "id": "0002",
+      "title": "免排队"
+      },{
+      "id": "0003",
+      "title": "人文古迹"
+      },{
+      "id": "0004",
+      "title": "自然风光"
+      },{
+      "id": "0005",
+      "title": "主题乐园"
+      },{
+      "id": "0006",
+      "title": "一日游"
+    }],
+    "modules": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1609/e7/e7e9ae10e9c8d69fa3.water.jpg_292x181_378a771d.jpg",
+        "desc": "济南金象山滑雪场冰雕世界展馆票",
+        "price": "1",
+        "btn": "立即抢购"
+      },{
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1609/e7/e7e9ae10e9c8d69fa3.water.jpg_292x181_378a771d.jpg",
+        "desc": "济南金象山滑雪场冰雕世界展馆票",
+        "price": "1",
+        "btn": "立即抢购"
+      },{
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1609/e7/e7e9ae10e9c8d69fa3.water.jpg_292x181_378a771d.jpg",
+        "desc": "济南金象山滑雪场冰雕世界展馆票",
+        "price": "1",
+        "btn": "立即抢购"
+      },{
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1609/e7/e7e9ae10e9c8d69fa3.water.jpg_292x181_378a771d.jpg",
+        "desc": "济南金象山滑雪场冰雕世界展馆票",
+        "price": "1",
+        "btn": "立即抢购"
+      },{
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1609/e7/e7e9ae10e9c8d69fa3.water.jpg_292x181_378a771d.jpg",
+        "desc": "济南金象山滑雪场冰雕世界展馆票",
+        "price": "1",
+        "btn": "立即抢购"
+      },{
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1609/e7/e7e9ae10e9c8d69fa3.water.jpg_292x181_378a771d.jpg",
+        "desc": "济南金象山滑雪场冰雕世界展馆票",
+        "price": "1",
+        "btn": "立即抢购"
+    }]
+  }
+}
