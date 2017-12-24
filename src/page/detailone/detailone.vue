@@ -1,5 +1,5 @@
 <template>
-<div>
+<div  style='background-color: #ffdb5c;'>
   <div class="download" style="background: rgba(0 , 0, 0, .7);"  ref="close" >
     <div class="top-download" style="background: rgba(0 , 0, 0, .7);">
       <div class="top-logo">
@@ -100,26 +100,22 @@ export default {
   color: #fff;
   background: #05bad5;
 }
-
 .back {
   width: 0.64rem;
   text-align: center;
   line-height: 0.88rem;
   
 }
-
 .header-center {
   flex: 1;
   height: 0.88rem;
   text-align: center;
   line-height: 0.88rem;
 }
-
 .header-right {
   width: 0.88rem;
   height: 0.88rem;
 }
-
 .icon-index { 
   color: #ccc;
   display: block;
@@ -129,33 +125,26 @@ export default {
   padding: 0 0.15rem;
   font-size: 0.26rem;
 }
-
 .index-page {
   width: 100%;  
   text-align: center;
   margin-right: 0.1rem;
-
 }
-
 .banner {
   width: 100%;
   height: 3.88rem;
   background: url("//img1.qunarzz.com/piao/fusion/1712/26/8e023c469106ea02.jpg_640x330_5c89ce09.jpg") no-repeat;
   background-size: 100% 100%;
 }
-
 .mp-navigation {
   width: 20%;
   height: 100%;
 }
-
 .mp-caption {
   height: 0;  
   z-index: 12;
   position: relative;
-
 }
-
 .mp-topic-img {
   position: absolute;
   top: -0.4rem;

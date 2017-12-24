@@ -1,5 +1,5 @@
 <template>
-  <div style="background-color: #ffb300;padding-top: .26rem;  height:10.98rem;">
+  <div style="background-color: #ffb300;padding-top: .26rem;  height:10.78rem;">
     <div class="hotel-box" v-for='item in hotelInfoa' :key='item.id'>
       <div class="mp-item"> 
         <div class="mp-img-container"> 
@@ -80,18 +80,23 @@ export default {
 .hotel-box{
   width:50%;
   float:left;
+  height:4.45rem;
   margin-top:0.26rem;
 }
 .hotel-Bigbox{
   width:98%;
+  float:left;
+  height:5.4rem;
   padding:1%;
 }
 .mp-img-container{
   width:96%;
+  height:2.82rem;
   margin:0.5% 2% 0% 2%;
 }
 .mp-item-img{
   width:100%;
+  height:100%;
 }
 .mp-item-title{
     width: 96%; 
@@ -132,7 +137,6 @@ export default {
   margin:0 3% 1%;
   float:right;
 }
-
 .topic{
     height: .3rem;
     color: #000;
@@ -178,10 +182,9 @@ export default {
   background:#fff;
 }
 .mp-img-containerobb{
-    padding-bottom: 44.205%;
+    height:2.84rem;
     overflow: hidden;
     width: 100%;
-    height: 0;
 }
 .mp-item-titleobb{
     width: 100%; 
@@ -224,4 +227,3 @@ export default {
   width:40%;
 }
 </style>
-

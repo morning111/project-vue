@@ -6,7 +6,6 @@ import Forbidden from '@/page/forbidden/forbidden'
 import City from '@/page/city/city'
 import DetailOne from '@/page/detailone/detailone'
 import DetailTwo from '@/page/detailtwo/detailtwo'
-import Music from '@/page/music/music'
 
 Vue.use(Router)
 export default new Router({
@@ -40,16 +39,6 @@ export default new Router({
       path: '/detailone',
       name: 'detailone',
       component: DetailOne
-    },
-    {
-      path: '/music',
-      name: 'music',
-      component: Music
-    },
-    {
-      path: '/hunt',
-      name: 'hunt',
-      component: Music
     }
   ],
   scrollBehavior (to, from, savedPosition) {

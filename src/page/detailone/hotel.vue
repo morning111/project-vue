@@ -1,5 +1,5 @@
 <template>
-  <div  style='background-color: #ffdb5c;padding-bottom: .26rem; height:12.98rem;'>
+  <div  style='background-color: #ffdb5c;padding-bottom: .26rem; height:12.58rem;'>
     <div class='advertising'>
       <img class='advertising-img' src='//img1.qunarzz.com/piao/fusion/1712/d4/f8cf91f0b7cb902.png' alt=''>
     </div>
@@ -82,18 +82,23 @@ export default {
 <style scoped>
 .hotel-box{
   width:50%;
+  height:5.35rem;
   float:left;
 }
 .hotel-Bigbox{
   width:98%;
+  float:left;
+  height:5.4rem;
   padding:1%;
 }
 .mp-img-container{
   width:96%;
+  height:2.84rem;
   margin:0.5% 2% 0% 2%;
 }
 .mp-item-img{
   width:100%;
+  height:100%;
 }
 .mp-item-title{
     width: 96%; 
@@ -174,10 +179,9 @@ export default {
   height: 100%;
 }
 .mp-img-containerobb{
-    padding-bottom: 44.205%;
+    height:2.84rem;
     overflow: hidden;
     width: 100%;
-    height: 0;
 }
 .mp-item-titleobb{
     width: 100%; 
@@ -204,4 +208,3 @@ export default {
    float: right;
 }
 </style>
-

@@ -150,7 +150,7 @@ export default {
 
   methods: {
     getIndexData () {
-      this.$http.get('/api/index.json')
+      this.$http.get('/static/index.json')
         .then(this.handleGetDataSucc.bind(this))
     },
 
