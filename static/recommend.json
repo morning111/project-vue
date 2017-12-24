@@ -1,0 +1,203 @@
+{
+  "ret": true,
+  "data": {
+    "golist": [{
+      "id": "00001",
+      "title": "天安门故宫珍宝馆+八达岭+颐和园+恭王府联票无线耳麦人工讲解",
+      "tomorrow": "可订明日",
+      "noshop": "无购物",
+      "nopaying": "无自费",
+      "price": "￥27",
+      "check": "查看"
+    },{
+      "id": "00002",
+      "title": "【5大景点】广场+故宫+八达岭长城+鸟巢水立方，北京一日游",
+      "tomorrow": "可订明日",
+      "noshop": "无购物",
+      "nopaying": "无自费",
+      "price": "￥148",
+      "check": "查看"
+    }],
+    "ondaylist": [{
+      "id": "00001",
+      "title": "故宫当日票",
+      "adult": "【当日票】故宫成人票",
+      "evidence": "凭身份证入园",
+      "price": "40",
+      "student": "【当日票】故宫学生票",
+      "proof": "凭身份证入园",
+      "cost": "20",
+      "check": "查看剩余产品"
+    },{
+      "id": "00002",
+      "title": "故宫当日成人票",
+      "adult": "上午场",
+      "evidence": "凭身份证入园",
+      "price": "40",
+      "student": "下午场",
+      "proof": "凭身份证入园",
+      "cost": "40",
+      "check": "查看剩余产品"
+    },{
+      "id": "00003",
+      "title": "故宫学生票",
+      "adult": "上午场",
+      "evidence": "凭身份证入园",
+      "price": "20",
+      "student": "下午场",
+      "proof": "凭身份证入园",
+      "cost": "20",
+      "check": "查看剩余产品"
+    },{
+      "id": "00004",
+      "title": "故宫老人票",
+      "adult": "上午场",
+      "evidence": "凭身份证入园",
+      "price": "20",
+      "student": "下午场",
+      "proof": "凭身份证入园",
+      "cost": "20",
+      "check": "查看剩余产品"
+    },{
+      "id": "00005",
+      "title": "热销组合产品",
+      "adult": "上午场成人票+自助导览器",
+      "evidence": "凭身份证入园",
+      "price": "60",
+      "student": "【大内御讲 9:00场】蓝琪儿格格带您穿越故宫（含故宫+珍宝馆门票）",
+      "proof": "",
+      "cost": "115",
+      "check": "查看剩余产品"
+    },{
+      "id": "00006",
+      "title": "自助导览器",
+      "adult": "中文版",
+      "evidence": "免押金",
+      "price": "9.9",
+      "student": "英文版",
+      "proof": "免押金",
+      "cost": "40",
+      "check": "查看剩余产品"
+    },{
+      "id": "00007",
+      "title": "珍宝馆、钟表馆",
+      "adult": "珍宝馆成人票",
+      "evidence": "凭身份证入园，需购买午门门票",
+      "price": "10",
+      "student": "珍宝馆学生/老人票",
+      "proof": "凭身份证入园，需购买午门门票",
+      "cost": "5",
+      "check": "查看剩余产品"
+    },{
+      "id": "00008",
+      "title": "故宫导游讲解",
+      "adult": "【大内御讲 9:00场】蓝琪儿格格带您穿越故宫",
+      "evidence": "（不含故宫门票）",
+      "price": "65",
+      "student": "【09:00场次】故宫讲解服务",
+      "proof": "（不含故宫门票）",
+      "cost": "27",
+      "check": "查看剩余产品"
+    },{
+      "id": "00009",
+      "title": "故宫礼物/老人儿童推车服务",
+      "adult": "故宫-婴儿推车出租服务",
+      "evidence": "",
+      "price": "99",
+      "student": "故宫-轮椅出租服务",
+      "proof": "",
+      "cost": "150",
+      "check": "查看剩余产品"
+    },{
+      "id": "00010",
+      "title": "一日游",
+      "adult": "【去哪儿推荐】天安门广场+故宫+八达岭长城1日游",
+      "evidence": "",
+      "price": "138",
+      "student": "【北京出发】故宫+颐和园+清华北大1日游",
+      "proof": "",
+      "cost": "108",
+      "check": "查看剩余产品"
+    }],
+    "evaluateList":[{
+      "id": "00001",
+      "name": "BBBBB",
+      "date": "h*2  2017-11-26",
+      "words": "是第一次到故宫参观，很大，走不完，16:00就闭馆了，所以建议第一次到故宫的先参观整体建筑，不要一次性买看钟表馆和珍宝馆文物的。里面有电子导游器，20元；也有志愿者讲解员，如果想尽量多走多参观建议用电子导游，如果想深入了解建议跟讲解员参观，另外钟表馆和珍宝馆也有讲解，分几个时段的，具体我忘记了。虽然说是淡季，但人还是挺多的，比如到太和殿，很多人涌到中间一探究竟，或者争相拍个照走人。由于是出差后抽空参观的，只有一下午的时间更不够了，但还是很值得参观的。从南门进去，建议提前购票，用身份证就可以进场了，快速，不用再排队，很方便的。",
+      "imgUrl1": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl2": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl3": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl4": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl5": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl6": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl7": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl8": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl9": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "total": "共9张"
+    },{
+      "id": "00002",
+      "name": "BBBBB",
+      "date": "h*2  2017-11-26",
+      "words": "整整玩了一天，就这还没逛完这座世界上最伟大最大最完整最震撼的宫殿。取票方便，刷身份证就可以直接进，不排队，游客服务中心提供热水和电视充电插座，点赞！里面的珍宝太多，几天几夜都看不完，票价只要六十块太值了！徜徉在长长红墙下你会感觉时空穿越，物我两忘。就是几座大殿的中间不让围观拍照，只能从侧面看。",
+      "imgUrl1": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl2": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl3": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl4": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl5": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl6": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl7": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg",
+      "imgUrl8": "",
+      "imgUrl9": "",
+      "total": "共8张"
+    }],
+    "linklist": [{
+      "id":"00001",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/f4/f467729126949c3a.water.jpg_228x168_3df8efda.jpg",
+      "area":"天安门广场",
+      "price":"20",
+      "grade": "BBBBB",
+      "evalute": "18896条评论",
+      "address": "北京.东城区"
+    },{
+      "id":"00002",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/f4/f467729126949c3a.water.jpg_228x168_3df8efda.jpg",
+      "area":"天安门广场",
+      "price":"20",
+      "grade": "BBBBB",
+      "evalute": "18896条评论",
+      "address": "北京.东城区"
+    },{
+      "id":"00003",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/f4/f467729126949c3a.water.jpg_228x168_3df8efda.jpg",
+      "area":"天安门广场",
+      "price":"20",
+      "grade": "BBBBB",
+      "evalute": "18896条评论",
+      "address": "北京.东城区"
+    },{
+      "id":"00004",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/f4/f467729126949c3a.water.jpg_228x168_3df8efda.jpg",
+      "area":"天安门广场",
+      "price":"20",
+      "grade": "BBBBB",
+      "evalute": "18896条评论",
+      "address": "北京.东城区"
+    },{
+      "id":"00005",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/f4/f467729126949c3a.water.jpg_228x168_3df8efda.jpg",
+      "area":"天安门广场",
+      "price":"20",
+      "grade": "BBBBB",
+      "evalute": "18896条评论",
+      "address": "北京.东城区"
+    },{
+      "id":"00006",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/f4/f467729126949c3a.water.jpg_228x168_3df8efda.jpg",
+      "area":"天安门广场",
+      "price":"20",
+      "grade": "BBBBB",
+      "evalute": "18896条评论",
+      "address": "北京.东城区"
+    }]
+  }
+}

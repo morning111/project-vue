@@ -33,10 +33,10 @@
        </dt> 
        <dd class="note-desc"> 
         <ul data-topic-display="container" data-topic-type="info" data-topic-id="info"> 
-         <li class="mp-note-item">1.心血管方面疾病患者容易发生危险要谨慎泡温泉；</li> 
-         <li class="mp-note-item">2.过于疲劳和饮酒过量者泡温泉易产生更多不适；</li> 
-         <li class="mp-note-item">3.严重皮肤病病及破损可能会发生继发感染；</li> 
-         <li class="mp-note-item">4.患有眼疾的患者不宜泡温泉。</li> 
+          <li class="mp-note-item">1.心血管方面疾病患者容易发生危险要谨慎泡温泉；</li> 
+          <li class="mp-note-item">2.过于疲劳和饮酒过量者泡温泉易产生更多不适；</li> 
+          <li class="mp-note-item">3.严重皮肤病病及破损可能会发生继发感染；</li> 
+          <li class="mp-note-item">4.患有眼疾的患者不宜泡温泉。</li> 
         </ul> 
        </dd> 
       </dl>
