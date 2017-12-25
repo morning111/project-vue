@@ -27,13 +27,13 @@
 		<div class="c-hot-classify" v-for="item in Hotclassify" :key="item.id">
 			<div class="c-hot-classify-leter"  ref = "GetItemScroll">{{item.title}}</div>
 			<router-link to='/'>
-				<div class="c-hot-classify-item" @click="changeCity(item)" v-for="item in item.name">{{item}}</div>
+				<div class="c-hot-classify-item" @click="changeCity(item)" v-for="item in item.name" :key="item.id">{{item}}</div>
 			</router-link>
 		</div>
 	</div>
 		</div>
 		<ul class="c-slid-leter">
-			<li  v-for="item in Hotclassify" @click="handleGetItemClick">{{item.title}}</li>
+			<li  v-for="item in Hotclassify" :key="item.id" @click="handleGetItemClick">{{item.title}}</li>
 		</ul>
 	</div>
 </template>
